@@ -14,3 +14,8 @@ pip install wheel
 pip install pycryptodome
 pip install pillow
 ```
+
+## Usage
+
+Works on Windows only!
+Install all of the above modules before use. If you succeed, the console will start, and then the program itself. Everything in the interface is intuitive to anyone. If it doesn't work, click the `"NOT WORKING?"` button and paste the path to your Hollow Knight folder there.
