@@ -72,7 +72,7 @@ input_value.bind('<Button-1>', lambda x: input_value.delete(0, 'end'))
 input_path = Entry(root, justify=RIGHT, width=65, fg='grey', font=('Consolas', 10))
 input_path.place(x=1000, y=1000, anchor=CENTER)
 input_path.insert(0, 'C:\\Users\\admin\\AppData\\LocalLow\\Team Cherry\\Hollow Knight')
-input_path.bind('<Button-1>', lambda x: input_path.delete(0, 'end'))
+#input_path.bind('<Button-1>', lambda x: input_path.delete(0, 'end'))
 
 # selection change
 selected_change = ttk.Combobox(root, state='readonly', values=('geo', 'maxhealth'))
